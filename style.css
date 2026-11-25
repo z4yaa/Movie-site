@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./space-purple-generated.jpg);
+  background-size: cover;
+}
+.container {
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  row-gap: 80px;
+  column-gap: 80px;
+}
+.content {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 30px;
+  width: 360px;
+  padding: 0px 6px;
+  box-shadow: 0px 0px 30px 10px rgb(0, 0, 0);
+}
+.title {
+  font-family: "Acme";
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.date {
+  font-family: "Acme";
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.score {
+  font-family: "Acme";
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.image {
+  width: 360px;
+  height: 490px;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: all 0.1s ease-in-out;
+}
+.content:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 14px 2px rgb(223, 224, 255);
+}
+h1 {
+  color: white;
+  font-size: 80px;
+  font-family: "acme";
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
